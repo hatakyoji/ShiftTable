@@ -41,7 +41,9 @@ public class HomeActivityFragment extends ListFragment {
     }
 
 
-
+    public void addListItem(){
+        adapter.add("No Name" , false);
+    }
 
 
 }
